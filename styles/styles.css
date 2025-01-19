@@ -1,39 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* button */
-.btn {
-    background-color: white;
-    width: 116px;
-    height: 52px;
-    border-radius: 5px;
-    color: #006a50;
-    border-style: solid;
-    border-color: #006a50;
-    padding: 15px 30px;
-}
+
 /* all body/text type */
+
 * {
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", serif;
 }
+
 body {
-    background-color: #ffffff;
+    background-color: rgb(245, 245, 245);
 }
 /* nav */
-.bd {
+
+.bd-size {
     display: flex;
     padding: 24px 160px;
     justify-content: space-between;
     font-size: 32px;
     text-align: center;
 }
+
+/* button */
+.btn {
+    background-color: white;
+    width: 116px;
+    height: 52px;
+    border-radius: 10px;
+    color: #006a50;
+    border-style: solid;
+    border-color: #006a50;
+    padding: 15px 30px;
+}
+
+/* banner */
 .banner {
-    padding-top: 80px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px;
     width: 1280px;
     height: 560px;
+    border-radius: 24px;
 }
+
 .banner-box {
-    width: 80%;
     padding: 80px 100px;
     margin: 0px auto;
     background-color: #c6e4d6;
@@ -41,30 +54,269 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 64px;
 }
-.banner-content p {
-    font-size: 56px;
-    font-weight: bold;
-    margin-bottom: 24px;
-    width: 622px;
-    height: 201px;
-}
+
 .banner-content h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+    width: 610px;
+    height: 190px;
+    font-weight: 700;
+    position: static;
+    justify-content: flex-start;
+    flex-direction: row;
+    row-gap: 64;
+}
+.banner-content h3 {
     font-weight: medium;
     font-size: 24px;
     color: #9b9898;
     gap: 17px;
     width: 622px;
     height: 29px;
+    position: static;
 }
-.btn-box {
+
+.btn-primery {
     background-color: #006a50;
     color: white;
-    width: 202px;
-    height: 22px;
-    padding: 17px 34px;
+    width: 230px;
+    height: 35px;
+    border-radius: 7px;
     font-weight: 600;
     margin-top: 24px;
     font-size: 18;
+}
+
+/* pillar */
+
+.pillar {
+    padding: 32px 0px;
+    margin: 32px 160px;
+    justify-content: space-between;
+}
+
+.pillar-box {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    margin: 0px 24px;
+}
+
+.pillar-box-1 {
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 24px;
+    gap: 24;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillar-box-2 {
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 24px;
+    gap: 24;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillar-box-3 {
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 24px;
+    gap: 24;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillar-box-4 {
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 24px;
+    gap: 24;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+/* pillar heading */
+
+.pillar-box-1 h4 {
+    font-size: 20px;
+    margin: 12px 0px;
+    gap: 12;
+}
+.pillar-box-2 h4 {
+    font-size: 20px;
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.pillar-box-3 h4 {
+    font-size: 20px;
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.pillar-box-4 h4 {
+    font-size: 20px;
+    margin: 12px 0px;
+    gap: 12;
+}
+
+/* pillar paragraph */
+.pillar-box-1 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.pillar-box-2 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin: 12px 0px;
+    gap: 12;
+}
+.pillar-box-3 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin: 12px 0px;
+    gap: 12;
+}
+.pillar-box-4 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.pillar-content h2 {
+    font-size: 40px;
+    margin: 32px 0px;
+    gap: 32;
+    color: rgb(14, 14, 14);
+    /* text-align: left; */
+}
+
+/* The vision of future */
+
+.vision {
+    margin: 32px 0px;
+    justify-content: space-between;
+}
+.Vision-box {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    margin: 32px 160px;
+}
+
+.vision-heading {
+    align-items: center;
+    margin: 32px 160px;
+    margin-bottom: 32px;
+}
+
+.vision-heading h1 {
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    margin: 24px 0px;
+    gap: 24;
+    padding: 0px;
+}
+.vision-heading p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin: 12px 0px;
+    gap: 12;
+    padding: 0px;
+}
+
+/* card */
+.card-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    gap: 24;
+    border-radius: 16px;
+    margin: 0px 24px;
+}
+.card-2 {
+    background-color: rgb(198, 228, 214);
+    padding: 32px;
+    gap: 24;
+    border-radius: 16px;
+    margin: 0px 24px;
+}
+.card-3 {
+    background-color: rgb(247, 235, 207);
+    padding: 24px;
+    gap: 24;
+    border-radius: 16px;
+    margin: 0px 24px;
+}
+.card-1 h1 {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.card-2 h1 {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.card-3 h1 {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 12px 0px;
+    gap: 12;
+}
+.card-1 p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0px;
+}
+
+.card-2 p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0px;
+}
+
+.card-3 p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0px;
+}
+
+.btn-clr-1 {
+    border-radius: 8px;
+    background-color: rgb(84, 144, 245);
+    margin: 24px 0px;
+    gap: 48;
+    padding: 11px 20px;
+}
+.btn-clr-2 {
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);
+    margin: 10px 0px;
+    padding: 11px 20px;
+    gap: 48;
+}
+.btn-clr-3 {
+    border-radius: 8px;
+    background-color: rgb(255, 194, 57);
+    margin: 10px 0px;
+    padding: 11px 20px;
+    gap: 48;
 }
